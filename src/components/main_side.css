@@ -1,0 +1,161 @@
+.main1{
+ 
+    background-color:white;
+    border:1px solid black;
+    max-width:250px;
+    margin:0 auto;
+    padding:20px;
+    box-sizing: border-box;
+    /* position:fixed; */
+   
+
+    /* left:30px;
+    top:60px; */
+} */
+.heading-side {
+    top:0;
+    align-items:center;
+    background-color:black;
+height:50px;
+
+
+}
+.heading-side h1{
+    background-color:black;
+    color:white;
+   text-align:center;
+}
+
+.Example1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Example1 img{
+    max-width:100%; 
+     height:auto; 
+     margin-bottom:10px;
+
+}
+.text{
+  
+    display:flex;
+    align-items:row;
+    justify-content:center;
+    align-items: center;
+     margin-right:10px;
+}
+.text h2{
+    margin:5px;
+}
+.text1 h2{
+    color:rgb(13, 132, 171);
+    margin-right:25px;
+}
+.heading{
+
+    height:30%;
+    margin:0;
+    background-color: black;
+}
+.container1 h1{
+
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+ .image{
+    height:50%;
+    width:100%;
+}
+.image img{
+    height:100px;
+    width:100px;
+    object-fit: contain;
+}
+.text{
+    margin:0;
+padding:10px;
+overflow: auto;
+word-wrap: break-word;
+}
+/* .profile-card-container{
+    background-color: white;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top:15px;
+
+}
+
+.profile-img-container{
+    position: absolute;
+    top:39.5%;
+    left: 20px;
+    background-color:white;
+}
+
+
+
+.profile-img{
+    height:100px;
+    width: auto;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+.profile-banner-container{
+    background-color: black;
+    color: white;
+
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+
+}
+
+.details-container{
+    background-color:white;
+    color: rgb(0, 0, 0);
+    height:50%;
+
+   
+    
+
+}
+
+.name-details{
+    height:30%;
+    padding:40px;
+    
+}
+
+.profile-details{
+    height:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:40px;
+    text-align: left;
+}
+
+.detail-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-content{
+    color:#48b3f5;
+}
+
+.username{
+    color: gray;
+} */

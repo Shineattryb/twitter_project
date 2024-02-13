@@ -1,0 +1,116 @@
+.card-container{
+
+  display:flex;
+  flex-direction:column;
+
+ 
+  padding:5px;
+
+margin-bottom:10px;
+
+font-size:1rem;
+
+
+}
+.description{
+    display:flex;
+    background-color:white;
+}
+.d2{
+    background-color:white;
+}
+.description img{
+height:40px;
+width:40px;
+/* margin-left:-20px; */
+margin-top:15px;
+background-color:white;
+margin-right:5px;
+margin-left:5px;
+/* margin-bottom:5px; */
+}
+.Example1 img{
+  
+    background-color:white;
+}
+#paragraph{
+   
+    background-color:white;
+}
+#paragraph span{
+    background-color:white;
+font-weight: bold;
+}
+.tweet-card{
+    background-color:white;
+    margin-bottom:5px;
+    width:100%;
+   /* width:80%; */
+}
+.Example1{
+    background-color:white;
+}
+.text h2{
+    background-color:white;
+}
+#p2{
+    word-wrap:break-word;
+    background-color:white;
+    margin-top:-10px;
+}
+.text{
+    background-color:white;
+}
+/* .tweet-card-container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+width:100%;
+  margin-left:400px;
+  margin-top:50px;
+}
+#paragraph{
+    font-size:large;
+    color:darkgray;
+}
+#paragraph span{
+    color:black;
+    font-weight:bolder;
+}
+#p2{
+    margin-top:-15px;
+    font-size:larger;
+    word-wrap:break-word;
+  
+}
+.tweet-card{
+    box-shadow:0 0.17rem 0.33rem -0.08rem rgba(23,43,77,.16);
+    border: 1px solid #f1f4f7;
+    margin:20px 0px;
+   
+
+width:500px;
+
+    min-height:100px;
+   display:flex;
+   
+   flex-direction:column;
+   justify-content:center;
+   word-wrap:break-word;
+  
+}
+
+.tweet-card p{
+    word-wrap:break-word;
+    
+}
+.description{
+    display:flex;
+    
+}
+.description img{
+    width:50px;
+     height:50px;
+  margin:10px;
+  margin-top:20px;
+} */
