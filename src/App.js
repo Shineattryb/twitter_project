@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar1 from './components/navbar1';
+import Navbar1 from './components/nav';
 // import {AlertPopup} from '@attrybtech/attryb-ui';
 import {useClickOutside} from '@attrybtech/attryb-ui';
 // import {Backdrop} from '@attrybtech/attryb-ui/lib/layout';
 import Alert from './components/alert';
 import React,{useState} from 'react';
-import DocSidebar from './components/sidebar';
+// import DocSidebar from './components/sidebar';
 import DocMainHeader from './components/maintweet';
-import DocMainHeader1 from './components/main_header_side';
+import DocMainHeader1 from './components/sidebar1';
 
 function App() {
  const [tweets, settweets]=useState([]);
@@ -23,6 +23,7 @@ function App() {
  {/* <DocSidebar/> */}
  <DocMainHeader1 />
  <div className='main-header'>
+ 
  <DocMainHeader  tweets={tweets}/>
  </div>
  </div>

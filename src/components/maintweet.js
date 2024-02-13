@@ -1,10 +1,10 @@
 import React from 'react'
 import { MainHeader } from '@attrybtech/attryb-ui'
 
-import './main.css';
+import './main_tweet.css';
 const DocMainHeader=({tweets})=> {
   return (
-    <div>
+    <div className="full">
       <div className="card-container">
          {/* <ul> */}
                     {tweets.map((tweet,index)=>(
